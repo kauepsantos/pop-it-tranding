@@ -4,11 +4,11 @@ local InterfaceManager = loadstring(game:HttpGet("https://pastebin.com/raw/JpqE6
 
 local Window = Fluent:CreateWindow({
     Title = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
-    SubTitle = " Apex Hub | " ..  identifyexecutor(),
+    SubTitle = " Error Hub | " ..  identifyexecutor(),
     TabWidth = 160,
     Size = UDim2.fromOffset(520, 320),
     Acrylic = true,
-    Theme = "Black",
+    Theme = "Ocean",
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 
@@ -23,22 +23,22 @@ local Tabs = {
 }
 
 Tabs.Main:AddParagraph({
-        Title = "Made by apex_scripts",
+        Title = "Made by tubergamer000",
         Content = ""
     })
     
     Tabs.Main:AddButton({
-        Title = "Discord server",
+        Title = "Canal do youtube",
         Description = "",
         Callback = function()
             Window:Dialog({
-                Title = "Discord",
+                Title = "meu Canal",
                 Content = "",
                 Buttons = {
                     {
                         Title = "Confirm",
                         Callback = function()
-                            setclipboard("https://discord.gg/jrA3MHq5rH")
+                            setclipboard("tubergamer000")
                         end
                     },
                     {
